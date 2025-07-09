@@ -17,7 +17,7 @@ Each function in Solidity must declare its visibility. If not vulnerabilities cr
 
 ### Diagram: Visibility Flow
 
-![Function Visibility Diagram](./diagrams/function-visibility.png)
+![Function Visibility Diagram](FF50E75A.PNG)
 
 ---
 
@@ -39,7 +39,7 @@ Solidity variables are either temporary (in memory) or permanent (in storage). K
 
 
 
-```
+
 
 ## What to Observe
 
@@ -94,5 +94,5 @@ Open the file in Remix and try:
 
 ## Reflection:
 
-        “I see contracts not as code, but as potential for strength or breach.”
+      “I see contracts not as code, but as potential for strength or breach.”
 
