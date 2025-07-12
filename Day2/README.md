@@ -31,15 +31,15 @@ function withdraw() public onlyOwner {
 
 ## Why Modifiers Matter to Auditors
 
-* Checkpoint	                            Example / Explanation
+* Checkpoint Example	                -         Explanation
 
-Is the modifier applied?	                    Functions like withdraw() or mint() must be protected
+Is the modifier applied?	            -       Functions like withdraw() or mint() must be protected
 
-Is the logic sound?	Are the checks              actually verifying the right condition?
+Is the logic sound?	                    -        Are the checks actually verifying the right condition?
 
-Are multiple modifiers conflicting?	            Could logic from one override the other?
+Are multiple modifiers conflicting?	    -        Could logic from one override the other?
 
-Are require statements clear?	                Vague errors make debugging and auditing harder
+Are require statements clear?	        -       Vague errors make debugging and auditing harder
 
 
 ## Fallbacks & Receive: The Ghost Functions
@@ -77,15 +77,15 @@ fallback() external payable {
 
 ## Audit Insights
 
-What to Watch For	                                Why It Matters
+What to Watch For	                        -        Why It Matters
 
-Does the fallback function change state?	        Might allow unintended side effects
+Does the fallback function change state?	-       Might allow unintended side effects
 
-Is gas usage controlled?	                        Can be exploited for gas griefing
+Is gas usage controlled?	                -       Can be exploited for gas griefing
 
-Are external calls made from fallback?	            Possible reentrancy attack window
+Are external calls made from fallback?	    -        Possible reentrancy attack window
 
-Is ether being sent with no purpose?	            Can mess with accounting, trigger unexpected behavior
+Is ether being sent with no purpose?	    -        Can mess with accounting, trigger unexpected behavior
 
 
 # Audit Checklist
