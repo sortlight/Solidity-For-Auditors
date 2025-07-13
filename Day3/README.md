@@ -142,7 +142,3 @@ Tomorrow we dive into the black box of events to know how logs tell stories on-c
 # Author
 
 Written by [Sortlight](https://github.com/sortlight)
-
-
-`
-                                                                         Go to: Day 4 – Events, Logs, and Attack Traces →
